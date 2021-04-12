@@ -1,0 +1,6 @@
+1. 롬복 builder 어노테이션 https://www.baeldung.com/lombok-builder-default-value
+    @Builder.Default
+    private String name = "foo";
+    -> new 연산자로 인스턴스 생성시 "foo"의 기본값 세팅은 되지 않는다. 
+    @Builder(toBuilder = true)
+    -> new 연산자로 인스턴스 생성후 .toBuilder()로 빌더변환 가능. 

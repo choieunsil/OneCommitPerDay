@@ -4,3 +4,8 @@
     -> new 연산자로 인스턴스 생성시 "foo"의 기본값 세팅은 되지 않는다. 
     @Builder(toBuilder = true)
     -> new 연산자로 인스턴스 생성후 .toBuilder()로 빌더변환 가능. 
+
+16일 
+https://stackoverflow.com/questions/57084731/lambda-expression-classcastexception-in-java
+List<제너릭> 으로 여러 타입을 UPcasting 한 후 담을때 stream으로 특정 Class 로 DownCasting해서 쓰는걸 피하자. 
+더 간략하게는 DownCasting을 할 상황을 만들지 않는게 BEST !!

@@ -9,3 +9,11 @@
 https://stackoverflow.com/questions/57084731/lambda-expression-classcastexception-in-java
 List<제너릭> 으로 여러 타입을 UPcasting 한 후 담을때 stream으로 특정 Class 로 DownCasting해서 쓰는걸 피하자. 
 더 간략하게는 DownCasting을 할 상황을 만들지 않는게 BEST !!
+
+20일
+Wrapper -> String 변환시 
+value.toString() -> NPE 발생 가능성 있음
+Wrapper타입.toString(value) -> 위와 같음 
+String.valueOf(value) -> NPE 발생 가능성 없지만, null 은 "null"로 변환됨
+Objects.toString(value) -> 위와 같음
+Objects.toString(value, defaultString) -> NPE 발생 가능성도 없고 null일때 defaultString 반환

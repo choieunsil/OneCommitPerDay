@@ -17,3 +17,10 @@ Wrapper타입.toString(value) -> 위와 같음
 String.valueOf(value) -> NPE 발생 가능성 없지만, null 은 "null"로 변환됨
 Objects.toString(value) -> 위와 같음
 Objects.toString(value, defaultString) -> NPE 발생 가능성도 없고 null일때 defaultString 반환
+
+22일
+Public 필드를 제외하곤 직렬화와 역직렬화가 안됨. 
+ ㄴ Getter 존재시 직렬화와 역직렬화가 가능.
+ ㄴ Setter 존재시 역직렬화만 가능. 
+https://www.baeldung.com/jackson-field-serializable-deserializable-or-not
+

@@ -1,0 +1,6 @@
+- 28일 
+호주 정부 페이지 같지만 url 네이밍을 다루고 있고 잘 정리된듯.
+https://api.gov.au/standards/national_api_standards/naming-conventions.html
+검색인 경우 query String 을 q라는 키워드로 표현하는걸 처음알았음. 그래서 구글링할때도 q가 붙었군...
+키=값,키=값 묶은다음에 url encoding 으로 변환된 값을 q="키%3값,키%3값" 으로 보냄. 
+https://bcho.tistory.com/914 

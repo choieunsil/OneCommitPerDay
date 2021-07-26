@@ -2,4 +2,5 @@
  롬복은 무조건 필드명의 맨앞을 대문자로 만듬. ex) aaa -> getAaa, setAaa 
  java는 필드명의 맨앞을 대문자로 만들지만, 두번째 문자까지 봤을때 대문자+대문자 면 첫번째를 소문자로 변경. ex) aaa -> getAaa, setAaa / bBb -> getbBb, setbBb / URL -> getURL , setURL
  참고사이트 : https://blog.naver.com/PostView.nhn?blogId=adamdoha&logNo=222295678750 
+ 참고 java문서(8.3절, 7.1절) : https://download.oracle.com/otn-pub/jcp/7224-javabeans-1.01-fr-spec-oth-JSpec/beans.101.pdf?AuthParam=1627285857_b096b58a31718252ee9e9807ee219b42 
  

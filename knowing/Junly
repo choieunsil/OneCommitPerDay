@@ -1,0 +1,5 @@
+07.26 롬복과 jackson(java) naming convention 
+ 롬복은 무조건 필드명의 맨앞을 대문자로 만듬. ex) aaa -> getAaa, setAaa 
+ java는 필드명의 맨앞을 대문자로 만들지만, 두번째 문자까지 봤을때 대문자+대문자 면 첫번째를 소문자로 변경. ex) aaa -> getAaa, setAaa / bBb -> getbBb, setbBb / URL -> getURL , setURL
+ 참고사이트 : https://blog.naver.com/PostView.nhn?blogId=adamdoha&logNo=222295678750 
+ 

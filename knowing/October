@@ -1,2 +1,8 @@
 10월 07일 
  junit @Parameterized 사용 예시 : https://www.baeldung.com/parameterized-tests-junit-5
+
+10월 29일
+ DNS TTL : 클라이언트가 DNS서버로 요청 후 일정시간만큼 도메인-IP에 대한 정보를 가지고 있게하여 재요청을 막게함. 이때의 시간.
+ 서비스 디스커버리 : 서비스의 주소, 프로토콜, 포트 등을 알려주는 방법 
+ 로드발란스: 부하를 어떻게 나눌것인가
+ 서비스 디스커버리 : 어떤서비스가 있고 해당 서비스에 어떤 서버나 endpoints가 있는가를 찾는것

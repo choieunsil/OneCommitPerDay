@@ -3,3 +3,5 @@
 
 11월 23일
  CQRS 설명과 C#예제 코드 : https://docs.microsoft.com/ko-kr/azure/architecture/patterns/cqrs
+ 이벤트소싱과 CQRS를 적용한 아키텍쳐 구조 : https://kellis.tistory.com/49
+ 실제 변환 사례 : https://bluayer.com/37

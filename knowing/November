@@ -9,3 +9,6 @@
 11월 29일 
  Ribbon 설정 github 설명 : https://github.com/Netflix/ribbon/wiki/Getting-Started#the-properties-file-sample-clientproperties
  한글 설명 : https://happycloud-lee.tistory.com/214 
+ Ribbon 설정키 : ribbon-core jar파일안에 CommonClientConfigKey 
+ 설정의 디폴트 값 : DefaultClientConfigImpl
+ retry 설정되는 클래스 : LoadBalancerContext  

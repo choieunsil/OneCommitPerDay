@@ -1,0 +1,5 @@
+Clone을 알고 사용하기 : https://stackoverflow.com/questions/2597965/why-people-are-so-afraid-of-using-clone-on-collection-and-jdk-classes
+ clone()함수 구현시 다운캐스팅이 이루어짐. 
+ clonable impl한 객체를 상속한객체가 생길경우 clone함수를 구현하지 않으면 clone()함수 사용시 리턴되는 객체의 타입이 부모의 타입으로 될수 있음. -> 타입의 정확성 X
+ deep , shallow 카피에 따라 참조하는 객체의 clone이 어떤 효과를 가져올지 장담할 수 없으며 
+ 하위 객체에 영향도를 파악하기 어려움! 알고서 사용하기~!

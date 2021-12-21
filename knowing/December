@@ -10,3 +10,7 @@ Clone을 알고 사용하기 : https://stackoverflow.com/questions/2597965/why-p
  threshold : open상태로 넘어가는 실패 갯수 
  hystrix ( Netflix, 더이상 업데이트 안됨), Resilience4j (현재 많이 사용중)
  
+12월 21일 
+ junit 에서 @SpringBootTest를 사용하는 경우 yml파일 설명 : https://www.baeldung.com/spring-tests-override-properties
+ junit을 이용한 test작성시 resource는 test아래의 파일을 읽음. 경로가 test/resource이기 때문.
+ @ExtendWith(SpringExtension.class)만 선언하면 bean만 설정되고, yml파일도 다른 test와 동일하게 test/resource를 참조

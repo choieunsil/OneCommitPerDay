@@ -1,3 +1,5 @@
 몽고 디자인패턴 
  동영상  https://university.mongodb.com/courses/M320/about
  블로그 https://www.mongodb.com/blog/post/building-with-patterns-a-summary
+ 다양한 개발언어에 대한 MongoDB 드라이버 연결 모니터링과 풀링 사양 정보
+   https://github.com/mongodb/specifications/blob/master/source/connection-monitoring-and-pooling/connection-monitoring-and-pooling.rst

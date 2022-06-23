@@ -1,0 +1,12 @@
+1. WEBFlux 사용시 JDBC도 비동기를 지원하는 R2DBC를 사용하라 
+  https://happyer16.tistory.com/entry/%EC%8A%A4%ED%94%84%EB%A7%81-blocking-vs-non-blocking-R2DBC-vs-JDBC-WebFlux-vs-Web-MVC
+  
+2. spring boot 1 vs spring boot 2 (web flux)
+  https://dzone.com/articles/raw-performance-numbers-spring-boot-2-webflux-vs-s
+
+3. MVC 랑 web flux 스펙스택 
+  https://godekdls.github.io/Reactive%20Spring/contents/
+  
+4. kakao의 reactor 소스 예시
+  https://tech.kakao.com/2018/05/29/reactor-programming/#hot-cold-%EA%B0%9C%EB%85%90
+  

@@ -1,1 +1,4 @@
 1. 소나큐브 적용하기 : https://seller-lee.github.io/static-code-analysis-part3
+
+2. 소나큐브 gradle 설정 : https://docs.sonarqube.org/latest/analysis/scan/sonarscanner-for-gradle/ 
+  소나큐브 적용하기 2 : https://xlffm3.github.io/devops/jacoco-sonarcube/ 
